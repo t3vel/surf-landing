@@ -607,6 +607,7 @@ a:hover {
 @media (max-width: 992px) {
   .menu__btn {
     display: flex;
+    z-index: 2;
   }
   .menu__list {
     position: absolute;
@@ -614,6 +615,7 @@ a:hover {
     right: 0;
     top: 0;
     bottom: 0;
+    z-index: 1;
     background-color: #0a507a;
     color: #fff;
     flex-direction: column;
